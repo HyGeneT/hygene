@@ -24,7 +24,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 35rem;
 }
 
 
@@ -81,5 +81,38 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+}
+
+@media (max-width: 426px){
+  .carousel-caption{}
+  #carousel-caption-3{
+    font-size: 75%;
+    align-content: center;
+    position: absolute;
+    top: 10%;
+  }
+}
+
+
+@media (max-width: 408px){
+  .carousel-caption{}
+  #carousel-caption-3{
+    font-size: 68%;
+    align-content: center;
+    position: absolute;
+    top: 15%;
+
+  }
+}
+
+
+@media (max-width: 353px){
+  .carousel-caption{}
+  #carousel-caption-3{
+    font-size: 55%;
+    align-content: center;
+    position: absolute;
+    top: 20%;
   }
 }
